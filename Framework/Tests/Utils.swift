@@ -4,7 +4,6 @@
 //
 
 import Foundation
-@testable import FloatingPanel
 
 func waitRunLoop(secs: TimeInterval = 0) {
     RunLoop.main.run(until: Date(timeIntervalSinceNow: secs))
